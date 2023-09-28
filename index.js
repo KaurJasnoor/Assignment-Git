@@ -1,9 +1,13 @@
-var a,b;
-a= 10;
-b=20;
-var c = a+b;
-console.log(c);
 
 
+
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+console.log(text);
 
 
