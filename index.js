@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -35,4 +36,13 @@ document.getElementById("demo").innerHTML = "Today is " + day;
 
 </body>
 </html>
+var a,b;
+a= 10;
+b=20;
+var c = a+b;
+console.log(c);
+
+
+
+
 
