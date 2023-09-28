@@ -1,10 +1,18 @@
-<!DOCTYPE html>
 <html>
 <body>
 
 <h2>JavaScript switch</h2>
 
 <p id="demo"></p>
+  
+  
+var a,b;
+a= 10;
+b=20;
+var c = a+b;
+console.log(c);
+
+
 
 <script>
 let day;
@@ -33,6 +41,4 @@ switch (new Date().getDay()) {
 document.getElementById("demo").innerHTML = "Today is " + day;
 </script>
 
-</body>
-</html>
 
